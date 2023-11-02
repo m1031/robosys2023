@@ -6,8 +6,9 @@ ng () {
       echo NG at Line $1
       res=1
 }
+
 res=0
-+ res=0
+
 ### I/O ###
   out=$(seq 5 | ./plus)
   [ "${out}" = 15 ] || ng ${LINENO}
