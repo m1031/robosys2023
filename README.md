@@ -1,16 +1,20 @@
 # robosys2023
 # plusコマンド
 ![test.bash](https://github.com/m1031/robosys2023/actions/workflows/test.yml/badge.svg)
-↑ test.bashによるテスト結果を反映したバッジの画像が埋め込まれる。
 
 標準入力から読み込んだ数字を足す。
 
+## インストール方法
+* 1.github上でctrl+shift+.で入力し、URLを取得する。
+２．git clone ＜取得したURL＞でクローンを入手できる。
+## 使用例
+* ターミナルにseq5 | ./plusと入力すると１～５まで足されて１５が出力される。 
 
 ## 必要なソフトウェア
 * Python
   * テスト済み: 3.7〜3.10
 
 ## テスト環境
-* Ubuntu
+* Ubuntu 20.04
 
 © 2023 Mahiro Yamoto
