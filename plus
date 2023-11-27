@@ -7,7 +7,7 @@ ans = 0
 for line in sys.stdin:
     try:
         ans += int(line)
-    expect:
+    except:
         ans += float(line)
 
 print(ans)
