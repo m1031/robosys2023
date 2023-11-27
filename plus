@@ -1,13 +1,10 @@
 #!/usr/bin/python3
 # SPDX-FileCopyrightTexy:2023 Mahiro Yamoto
-#SPDX-Licence-Identifier:BSD-3-Clause
+#SPDX-Licence-Identifier:BSD-3-Claus
 import sys
 
 ans = 0
 for line in sys.stdin:
-    try:
-        ans += int(line)
-    except:
         ans += float(line)
 
 print(ans)
